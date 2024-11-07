@@ -1,0 +1,33 @@
+version: "2.0"
+intents:
+  - ask_features
+  - ask_installation
+  - ask_troubleshooting
+  - ask_warranty
+  - ask_security
+  - ask_compatibility
+  - hello
+  - contact_support
+responses:
+  utter_features_info:
+    - text: "Hệ thống CCTV của chúng tôi có ghi hình theo thời gian thực, phát hiện chuyển động, nhận diện khuôn mặt, thông báo qua ứng dụng và truy cập từ xa."
+
+  utter_installation_info:
+    - text: "Để lắp camera, bạn cần chuẩn bị camera, dây cáp, nguồn điện và dụng cụ khoan. Chúng tôi có dịch vụ lắp đặt chuyên nghiệp nếu cần."
+
+  utter_troubleshooting_info:
+    - text: "Nếu camera không hoạt động, hãy kiểm tra nguồn điện, kết nối mạng và thử khởi động lại. Nếu vẫn gặp lỗi, vui lòng liên hệ bộ phận hỗ trợ."
+
+  utter_warranty_info:
+    - text: "Sản phẩm được bảo hành 12 tháng. Trong thời gian này, bạn được hỗ trợ kỹ thuật miễn phí."
+
+  utter_security_info:
+    - text: "Video của bạn được mã hóa và chỉ bạn có quyền truy cập. Chúng tôi cam kết bảo mật và không chia sẻ dữ liệu với bên thứ ba."
+
+  utter_compatibility_info:
+    - text: "Hệ thống tương thích với thiết bị di động Android/iOS và máy tính qua trình duyệt web."
+
+  utter_hello_info:
+    - text: "Xin chào! Đây là tin nhắn tự động. Nếu cần hỗ trợ, hãy gửi câu hỏi của bạn."
+  utter_contact_support_info:
+    - text: "Để được hỗ trợ trực tiếp từ nhân viên chăm sóc khách hàng, vui lòng để lại số điện thoại hoặc email của bạn. Chúng tôi sẽ liên hệ lại sớm nhất có thể."

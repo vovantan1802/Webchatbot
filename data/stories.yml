@@ -1,0 +1,39 @@
+version: "2.0"
+stories:
+  - story: hỏi về tính năng
+    steps:
+      - intent: ask_features
+      - action: utter_features_info
+
+  - story: hỏi về lắp đặt
+    steps:
+      - intent: ask_installation
+      - action: utter_installation_info
+
+  - story: hỏi về khắc phục sự cố
+    steps:
+      - intent: ask_troubleshooting
+      - action: utter_troubleshooting_info
+
+  - story: hỏi về bảo hành
+    steps:
+      - intent: ask_warranty
+      - action: utter_warranty_info
+
+  - story: hỏi về bảo mật
+    steps:
+      - intent: ask_security
+      - action: utter_security_info
+
+  - story: hỏi về tính tương thích
+    steps:
+      - intent: ask_compatibility
+      - action: utter_compatibility_info
+  - story: lời chào 
+    steps:
+      - intent: hello
+      - action: utter_hello_info
+  - story: liên hệ nhân viên CSKH
+    steps:
+      - intent: contact_support
+      - action: utter_contact_support_info

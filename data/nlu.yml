@@ -1,0 +1,85 @@
+version: "2.0"
+nlu:
+  - intent: ask_features
+    examples: |
+      - Hệ thống có những chức năng gì đặc biệt?
+      - Các tính năng của camera là gì?
+      - Camera có thể làm được những gì?
+      - Những tiện ích của hệ thống là gì?
+      - Hệ thống này hỗ trợ những gì?
+      - Tôi có thể dùng camera để làm gì?
+      - Camera này có các tính năng gì đặc biệt?
+      - Tính năng
+
+  - intent: ask_installation
+    examples: |
+      - Hướng dẫn cách lắp đặt hệ thống camera?
+      - Lắp đặt hệ thống CCTV cần các bước nào?
+      - Cần làm gì để cài đặt camera?
+      - Có thể tự lắp đặt camera không?
+      - Lắp đặt có khó không?
+      - Quy trình lắp camera có phức tạp không?
+      - Tôi muốn biết cách lắp đặt hệ thống CCTV.
+      - lắp đặt thế nào.
+
+  - intent: ask_troubleshooting
+    examples: |
+      - Tôi phải làm gì khi camera không có tín hiệu?
+      - Làm thế nào để khắc phục sự cố camera không hiển thị hình ảnh?
+      - Camera của tôi không kết nối được, bạn có thể hướng dẫn sửa lỗi không?
+      - Tôi không thể xem hình ảnh từ camera, có cách nào khắc phục không?
+      - Làm sao để sửa lỗi khi camera bị gián đoạn kết nối?
+      - Khi camera mất kết nối thì phải làm sao?
+      - Lỗi kết nối camera xử lý thế nào?
+      - tôi gặp sự cố khi sử dụng hệ thống.
+
+  - intent: ask_warranty
+    examples: |
+      - Thời hạn bảo hành của hệ thống này là bao lâu?
+      - Hệ thống camera có hỗ trợ bảo hành không?
+      - Tôi muốn biết về chế độ bảo hành.
+      - Có bảo hành cho sản phẩm này không?
+      - Chính sách bảo hành là như thế nào?
+      - Hỗ trợ kỹ thuật sẽ kéo dài bao lâu?
+      - Bảo hành.
+      - Tôi có thể nhận bảo hành ở đâu?
+
+  - intent: ask_security
+    examples: |
+      - Hệ thống này có bảo vệ dữ liệu của tôi không?
+      - Camera có đảm bảo tính riêng tư không?
+      - Quyền riêng tư của video có được bảo vệ không?
+      - Dữ liệu ghi hình có bị ai truy cập không?
+      - Làm sao tôi biết video của tôi được bảo mật?
+      - Ai có thể xem dữ liệu từ camera của tôi?
+      - Bảo mật.
+      - Video có được lưu trữ an toàn không?
+
+  - intent: ask_compatibility
+    examples: |
+      - Hệ thống này có thể dùng với thiết bị nào khác không?
+      - Camera có hoạt động với điện thoại tôi không?
+      - Hệ thống này có thể kết nối với ứng dụng nào?
+      - Tôi có thể kết nối camera với laptop không?
+      - Thiết bị này có tương thích với các nền tảng khác không?
+      - Camera có thể hoạt động với điện thoại Android không?
+      - Tôi muốn biết camera này có thể kết nối với TV không?
+
+  - intent: hello
+    examples: |
+      - Chào bạn
+      - Xin chào, có ai ở đây không?
+      - Hi
+      - Hello
+      - Xin chào, tôi cần tư vấn
+      - Chào bạn, tôi có thể hỏi gì không?
+      - Xin chào, có thể giúp tôi không?
+  - intent: contact_support
+    examples: |
+      - Tôi muốn liên hệ với nhân viên chăm sóc khách hàng
+      - Làm thế nào để nói chuyện với nhân viên hỗ trợ?
+      - Liên hệ trực tiếp với bộ phận chăm sóc khách hàng như thế nào?
+      - Tôi cần hỗ trợ từ nhân viên, bạn có thể giúp không?
+      - Có thể để lại thông tin để nhân viên liên hệ lại không?
+      - Tôi muốn để lại số điện thoại để được hỗ trợ trực tiếp
+      - Liên hệ với bộ phận hỗ trợ khách hàng
