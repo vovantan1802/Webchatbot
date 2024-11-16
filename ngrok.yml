@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 2on2PeqQSiItjO9NKBLHbLJt60Y_5MgnNvJNE5fKZmpx1MaZE
+tunnels:
+  rasa:
+    addr: 5005
+    proto: http
+  web:
+    addr: 8000
+    proto: http
